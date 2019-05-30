@@ -34,7 +34,8 @@ def fillPlotValues(x, x_values, degree):
     result = 0.0
     for i in range(degree + 1):
       '''
-      x[i] and (val**i) to get it to multiply coordinates with values in correct ordering
+      x[i] and (val**i) to get it to multiply 
+      coordinates with values in correct ordering
       '''
       result += x[i] * (val**i) 
     line_eval.append(result)
